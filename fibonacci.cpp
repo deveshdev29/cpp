@@ -15,6 +15,7 @@ void fib(int n ){
         t2 = nextterm;
 
     }
+    return;
 }
 
 int main(){
