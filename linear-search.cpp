@@ -19,6 +19,7 @@ int main(){
     for(int i = 0; i < n; i++){
         if(key == arr[i]){
             cout << "Index of the key is " << i << endl;
+            return 0;
         }
     }
     return 0;
