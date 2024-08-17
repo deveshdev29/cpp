@@ -10,7 +10,6 @@ void bubbleSort(int arr[], int n){
                 arr[j] = arr[j+1];
                 arr[j+1] = temp;
             }
-
         }
     }
 }
@@ -20,6 +19,7 @@ void printArray(int arr[], int n){
         cout << arr[i] << " ";
     }
 }
+
 int main(){
 
     int n;
