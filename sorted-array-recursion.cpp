@@ -8,7 +8,6 @@ bool isSorted(int arr[], int n){
     }
     bool restArray = isSorted(arr+1, n-1);
     return (arr[0] < arr[1] && restArray);
-
 }
 
 int main(){
