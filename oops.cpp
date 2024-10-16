@@ -22,7 +22,6 @@ public:
 
 
     void printInfo(){
-
         cout << "Name: " << name << endl;
         cout << "Age: " << age << endl;
         cout << "Gender: " << gender << endl;
@@ -36,6 +35,6 @@ int main(){
     obj.printInfo();
 
     Student b;
-    
+
     return 0;
 }
