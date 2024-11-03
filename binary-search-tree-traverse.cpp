@@ -20,13 +20,11 @@ Node* insert(Node* root, int val){
     }else{
         root->right = insert(root->right, val);
     }
-
     return root;
 }
 
 void inorder(Node* root){
     if(root == nullptr) return;
-
     inorder(root->left);
     cout << root->data << " ";
     inorder(root->right);
